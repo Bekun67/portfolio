@@ -1,1 +1,2 @@
-
+My personal Game Development portfolio, showcasing both my university and personal projects. 
+Here, you can explore my work, discover my skills, and access my GitHub, LinkedIn, Steam developer page, and contact information.
