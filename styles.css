@@ -245,10 +245,10 @@ main {
 }
 
 .projects__category{
-    text-align: center;
-    margin-top:4rem;
-    margin-bottom:1.5rem;
-    color:var(--clr-primary);
+  margin-top:4rem;
+  margin-bottom:1.5rem;
+  color:var(--clr-primary);
+  text-align: center;
 }
 
 .project--featured {
