@@ -237,6 +237,7 @@ main {
 }
 
 .section__subtitle{
+    width: 100%;
     text-align:center;
     color:var(--clr-fg);
     max-width:700px;
@@ -244,9 +245,16 @@ main {
 }
 
 .projects__category{
+    text-align: center;
     margin-top:4rem;
     margin-bottom:1.5rem;
     color:var(--clr-primary);
+}
+
+.project--featured {
+  grid-column: 1 / -1;
+  max-width: 500px;
+  margin: 0 auto 1em;
 }
 
 .nav__list {
@@ -299,7 +307,7 @@ main {
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(18em, 1fr));
-  grid-gap: 2em;
+  grid-gap: 2em 2.5em;
 }
 
 .project {
