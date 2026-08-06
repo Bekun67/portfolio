@@ -236,6 +236,19 @@ main {
   text-transform: uppercase;
 }
 
+.section__subtitle{
+    text-align:center;
+    color:var(--clr-fg);
+    max-width:700px;
+    margin:0 auto 3rem;
+}
+
+.projects__category{
+    margin-top:4rem;
+    margin-bottom:1.5rem;
+    color:var(--clr-primary);
+}
+
 .nav__list {
   margin-right: 1.5em;
   display: flex;
