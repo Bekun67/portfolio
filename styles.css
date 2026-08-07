@@ -27,22 +27,22 @@ body {
 }
 
 .light {
-  --clr-bg: #fcfcfc;
-  --clr-bg-alt: #fff;
-  --clr-fg: #555;
-  --clr-fg-alt: #444;
-  --clr-primary: #2978b5;
-  --shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  --clr-bg: #faf7ff;  
+  --clr-bg-alt: #ffffff;
+  --clr-fg: #5b4f73;
+  --clr-fg-alt: #3d2f5a;
+  --clr-primary: #8b5cf6;
+  --shadow: rgba(139, 92, 246, 0.12) 0px 7px 29px 0px;
 }
 
 .dark {
-  --clr-bg: #23283e;
-  --clr-bg-alt: #2a2f4c;
-  --clr-fg: #bdbddd;
-  --clr-fg-alt: #cdcdff;
-  --clr-primary: #90a0d9;
-  --shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px,
-    rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  --clr-bg: #171320;
+  --clr-bg-alt: #231c33;
+  --clr-fg: #dcd6f7;
+  --clr-fg-alt: #ffffff;
+  --clr-primary: #a855f7;
+  --shadow: rgba(0, 0, 0, 0.25) 0px 10px 36px 0px,
+            rgba(0, 0, 0, 0.12) 0px 0px 0px 1px;
 }
 
 ::-moz-selection {
@@ -356,8 +356,9 @@ main {
   max-width: 900px;
   width: 95%;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 1.5em;
 }
 
@@ -370,6 +371,8 @@ main {
   padding: 1.8em 1em;
   font-size: 1rem;
   font-weight: 600;
+  flex: 1 1 130px;
+  max-width: 160px;
 }
 
 .skills__icon {
