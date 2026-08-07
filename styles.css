@@ -362,7 +362,15 @@ main {
 }
 
 .skills__list-item {
-  margin: 0.5em;
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.skills__icon {
+  width: 20px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
 }
 
 .contact {
