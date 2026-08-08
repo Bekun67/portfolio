@@ -283,7 +283,7 @@ window.PROJECTS = {
 
   "evolution-tale": {
     title: "Evolution Tale",
-    heroImage: "images/covers/portadaET.jpg",
+    heroImage: "images/covers/portadaET.png",
     description: [
       "Evolution Tale is a crafting and exploration game developed in Unity as one of my first game development projects. Created during high school by a two-person team, the project was built while learning Unity and C# from scratch. Players gather resources across eight historical eras, craft hundreds of unique items, and progressively unlock new technologies while advancing through the evolution of civilization."
     ],
