@@ -52,45 +52,70 @@
 
     <main>
       <!-- About -->
-      <div class="about center">
-        <h1>Hi, I am <span class="about__name">Isaac Ramírez.</span></h1>
-        <h2 class="about__role">Game Developer.</h2>
-        <p class="about__desc">
-          Game Developer based in Barcelona. 
-          Fourth-year Game Development student at the Centre de la Imatge i la Tecnologia Multimèdia (CITM-UPC), 
-          with experience developing university and personal projects using Unity, C++, and various other software tools.
-        </p>
+      <div class="about">
+        <div class="about__row">
+          <div class="about__content">
+            <h1>Hi, I am <span class="about__name">Isaac Ramírez.</span></h1>
+            <h2 class="about__role">Game Developer.</h2>
+            <p class="about__desc">
+              Game Developer based in Barcelona. 
+              Fourth-year Game Development student at the Centre de la Imatge i la Tecnologia Multimèdia (CITM-UPC), 
+              with experience developing university and personal projects using Unity, C++, and various other software tools.
+            </p>
 
-        <div class="about__contact center">
-          <a href="https://example.com">
-            <span class="btn btn--outline">Resume</span>
-          </a>
+            <div class="about__contact center">
+              <a href="https://example.com">
+                <span class="btn btn--outline">Resume</span>
+              </a>
 
-          <a
-            href="https://github.com/Bekun67"
-            aria-label="github"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-github"></i>
-          </a>
+              <a
+                href="https://github.com/Bekun67"
+                aria-label="github"
+                class="link link--icon"
+              >
+                <i aria-hidden="true" class="fab fa-github"></i>
+              </a>
 
-          <a
-            href="https://www.linkedin.com/in/isaac-ramírez-prieto/"
-            aria-label="linkedin"
-            class="link link--icon"
-          >
-            <i aria-hidden="true" class="fab fa-linkedin"></i>
-          </a>
+              <a
+                href="https://www.linkedin.com/in/isaac-ramírez-prieto/"
+                aria-label="linkedin"
+                class="link link--icon"
+              >
+                <i aria-hidden="true" class="fab fa-linkedin"></i>
+              </a>
 
-          <a
-              href="https://store.steampowered.com/search/?developer=Isaac%20Ram%C3%ADrez"
-              aria-label="steam"
-              class="link link--icon"
-          >
-              <i aria-hidden="true" class="fab fa-steam"></i>
-          </a>
+              <a
+                  href="https://store.steampowered.com/search/?developer=Isaac%20Ram%C3%ADrez"
+                  aria-label="steam"
+                  class="link link--icon"
+              >
+                  <i aria-hidden="true" class="fab fa-steam"></i>
+              </a>
+            </div>
+          </div>
+
+          <div class="about__photo">
+            <span class="about__photo-placeholder">Photo<br />coming soon</span>
+          </div>
         </div>
+
+        <ul class="skills__list badges">
+          <li class="skills__list-item btn btn--plain">
+            <img class="skills__icon" src="images/icons/university.png" alt="University Student">
+            University Student
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <img class="skills__icon" src="images/icons/gameplay.png" alt="Specialized in Gameplay">
+            Specialized in Gameplay
+          </li>
+          <li class="skills__list-item btn btn--plain">
+            <img class="skills__icon" src="images/icons/trophy.png" alt="7 Completed Projects">
+            7 Completed Projects
+          </li>
+        </ul>
       </div>
+
+      <hr class="section-divider" />
 
       <!-- Projects -->
       <section id="projects" class="section projects">
@@ -99,9 +124,6 @@
         <p class="section__subtitle">
           Click on any project to learn more about its development, technologies, and features.
         </p>
-
-        <!-- University -->
-        <h3 class="projects__category">University Projects</h3>
 
         <div class="projects__grid">
           <!-- SOI -->
@@ -116,75 +138,6 @@
               <li class="project__stack-item">WaveEngine</li>
               <li class="project__stack-item">Lua</li>
               <li class="project__stack-item">Big team</li>
-            </ul>
-          </div>
-          </a>
-
-          <!-- Kim -->
-          <a class="project-link" href="project.html?id=kims-underworld">
-          <div class="project">
-            <img class="project__img" src="images/covers/portadaKim.png" alt="Kim's Underworld">
-            <h3>Kim's Underworld</h3>
-            <p class="project__description">
-              An original team-developed metroidvania built with SDL and C++, exploring the depths of the underworld to reunite with your late father.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">SDL</li>
-              <li class="project__stack-item">C++</li>
-              <li class="project__stack-item">Medium team</li>
-            </ul>
-          </div>
-          </a>
-
-          <!-- Jump King -->
-          <a class="project-link" href="project.html?id=jump-king-sdl">
-          <div class="project">
-            <img class="project__img" src="images/covers/portadaJK.png" alt="Jump King in SDL">
-            <h3>Jump King in SDL</h3>
-            <p class="project__description">
-              An academic reinterpretation of the platformer game Jump King, developed using SDL and C++.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">SDL</li>
-              <li class="project__stack-item">C++</li>
-              <li class="project__stack-item">Team of 2</li>
-            </ul>
-          </div>
-          </a>
-
-          <!-- Soukoban -->
-          <a class="project-link" href="project.html?id=super-soukoban">
-          <div class="project">
-            <img class="project__img" src="images/covers/portadaSS.png" alt="Super Soukoban in Raylib">
-            <h3>Super Soukoban in Raylib</h3>
-            <p class="project__description">
-              A recreation of the NES game Super Soukoban using the Raylib library.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Raylib</li>
-              <li class="project__stack-item">C++</li>
-              <li class="project__stack-item">Solo</li>
-            </ul>
-          </div>
-          </a>
-        </div>
-
-        <!-- Game Jams -->
-        <h3 class="projects__category">Game Jams</h3>
-
-        <div class="projects__grid">
-          <!-- Odisea -->
-          <a class="project-link" href="project.html?id=odyssey-more-or-less">
-          <div class="project">
-            <img class="project__img" src="images/covers/portadaOdisea.png" alt="The Odyssey More Or Less">
-            <h3>The Odyssey More Or Less</h3>
-            <p class="project__description">
-              A Unity game jam project based on the theme of The Odyssey, featuring WarioWare-style minigames.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Small team</li>
             </ul>
           </div>
           </a>
@@ -204,12 +157,23 @@
               </ul>
           </div>
           </a>
-        </div>
 
-        <!-- Personal -->
-        <h3 class="projects__category">Personal Projects</h3>
+          <!-- Odisea -->
+          <a class="project-link" href="project.html?id=odyssey-more-or-less">
+          <div class="project">
+            <img class="project__img" src="images/covers/portadaOdisea.png" alt="The Odyssey More Or Less">
+            <h3>The Odyssey More Or Less</h3>
+            <p class="project__description">
+              A Unity game jam project based on the theme of The Odyssey, featuring WarioWare-style minigames.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Small team</li>
+            </ul>
+          </div>
+          </a>
 
-        <div class="projects__grid">
           <!-- ET -->
           <a class="project-link" href="project.html?id=evolution-tale">
           <div class="project">
@@ -225,37 +189,11 @@
             </ul>
           </div>
           </a>
+        </div>
 
-          <!-- Bullet heaven -->
-          <a class="project-link" href="project.html?id=bullet-heaven">
-          <div class="project">
-            <img class="project__img" src="images/covers/portadaBH.png" alt="Bullet Heaven">
-            <h3>Bullet Heaven</h3>
-            <p class="project__description">
-              Upcoming solo project for my Bachelor's Thesis: a platformer and bullet heaven hybrid built around boss rush gameplay.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Solo</li>
-            </ul>
-          </div>
-          </a>
-
-          <!-- Petroclo -->
-           <a class="project-link" href="project.html?id=oil-rig-game">
-          <div class="project">
-            <img class="project__img" src="images/covers/portadaOilrig.png" alt="Untitled Oil Rig Game">
-            <h3>Untitled Oil Rig Game</h3>
-            <p class="project__description">
-              An upcoming multiplayer horror game set on an abandoned offshore oil rig, developed in Unity.
-            </p>
-            <ul class="project__stack">
-              <li class="project__stack-item">Unity</li>
-              <li class="project__stack-item">C#</li>
-              <li class="project__stack-item">Small team</li>
-            </ul>
-          </div>
+        <div class="projects__view-all center">
+          <a href="projects.html">
+            <span class="btn btn--outline">View all projects</span>
           </a>
         </div>
       </section>

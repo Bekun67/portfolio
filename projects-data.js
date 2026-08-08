@@ -53,7 +53,7 @@ window.PROJECTS = {
       "Kim's Underworld is an original metroidvania developed in SDL and C++ by a multidisciplinary team of five programmers, working alongside artists and game designers. Set deep within the underworld, the game follows Kim on a journey to reunite with her late father while exploring a vast interconnected world filled with enemies, platforming challenges, and environmental puzzles. The gameplay is built around a climbing-focused movement system, making vertical exploration and traversal the core of the player's progression."
     ],
     youtubeId: "X6UPdr4N0RM",
-    downloadLink: "",
+    downloadLink: "https://github.com/XaviFast05/Kims-Underworld/releases/tag/GOLD",
     githubLink: "https://github.com/XaviFast05/Kims-Underworld",
     info: {
       language: "C++",
@@ -100,7 +100,7 @@ window.PROJECTS = {
       "Jump King in SDL is an academic reinterpretation of Jump King, developed in SDL and C++. Using the original game's visual assets and level layouts as inspiration, our team recreated part of the experience while adapting it to our own engine framework and expanding it with new gameplay systems. In addition to faithfully reproducing the signature jumping mechanics and interconnected vertical progression, we introduced original features such as enemies, a final boss, checkpoints, save/load functionality, debugging tools, and additional levels designed specifically for the project."
     ],
     youtubeId: "",
-    downloadLink: "",
+    downloadLink: "https://github.com/XaviFast05/Jump-King-in-SDL/releases/tag/1.0",
     githubLink: "https://github.com/XaviFast05/Jump-King-in-SDL",
     info: {
       language: "C++",
@@ -147,7 +147,7 @@ window.PROJECTS = {
       "Super Soukoban in Raylib is a faithful recreation of the NES classic Super Soukoban, developed using the Raylib library. The project replicates the original game's mechanics, menus, user interface, audio, music, and visual presentation by extracting and adapting assets from the original release. After analyzing the game's behavior and systems through technical documentation and community resources, the first eight levels were recreated to provide a complete experience from the title screen to the final stage."
     ],
     youtubeId: "ybXSLJoaFLY",
-    downloadLink: "",
+    downloadLink: "https://github.com/Bekun67/Super-Soukoban/releases/tag/Patch",
     githubLink: "https://github.com/Bekun67/Super-Soukoban",
     info: {
       language: "C++",

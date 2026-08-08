@@ -1,0 +1,239 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Projects — Isaac Ramírez</title>
+  </head>
+  <body class="dark" id="top">
+    <header class="header center">
+      <h3></h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="index.html#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="index.html#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="index.html#contact">Contact</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <a class="projects__back link" href="index.html">
+        <i aria-hidden="true" class="fas fa-arrow-left"></i> Back to home
+      </a>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <p class="section__subtitle">
+          Click on any project to learn more about its development, technologies, and features.
+        </p>
+
+        <!-- University -->
+        <h3 class="projects__category">University Projects</h3>
+
+        <div class="projects__grid">
+          <!-- SOI -->
+          <a class="project-link" href="project.html?id=son-of-ithaca">
+          <div class="project project--featured">
+            <img class="project__img" src="images/covers/portadaSOI.png" alt="Son Of Ithaca">
+            <h3>Son Of Ithaca</h3>
+            <p class="project__description">
+              An action, puzzle, and story-driven RPG inspired by Tunic, where Telemachus embarks on a reimagining of The Odyssey in search of his father.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">WaveEngine</li>
+              <li class="project__stack-item">Lua</li>
+              <li class="project__stack-item">Big team</li>
+            </ul>
+          </div>
+          </a>
+
+          <!-- Kim -->
+          <a class="project-link" href="project.html?id=kims-underworld">
+          <div class="project">
+            <img class="project__img" src="images/covers/portadaKim.png" alt="Kim's Underworld">
+            <h3>Kim's Underworld</h3>
+            <p class="project__description">
+              An original team-developed metroidvania built with SDL and C++, exploring the depths of the underworld to reunite with your late father.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SDL</li>
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">Medium team</li>
+            </ul>
+          </div>
+          </a>
+
+          <!-- Jump King -->
+          <a class="project-link" href="project.html?id=jump-king-sdl">
+          <div class="project">
+            <img class="project__img" src="images/covers/portadaJK.png" alt="Jump King in SDL">
+            <h3>Jump King in SDL</h3>
+            <p class="project__description">
+              An academic reinterpretation of the platformer game Jump King, developed using SDL and C++.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SDL</li>
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">Team of 2</li>
+            </ul>
+          </div>
+          </a>
+
+          <!-- Soukoban -->
+          <a class="project-link" href="project.html?id=super-soukoban">
+          <div class="project">
+            <img class="project__img" src="images/covers/portadaSS.png" alt="Super Soukoban in Raylib">
+            <h3>Super Soukoban in Raylib</h3>
+            <p class="project__description">
+              A recreation of the NES game Super Soukoban using the Raylib library.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Raylib</li>
+              <li class="project__stack-item">C++</li>
+              <li class="project__stack-item">Solo</li>
+            </ul>
+          </div>
+          </a>
+        </div>
+
+        <!-- Game Jams -->
+        <h3 class="projects__category">Game Jams</h3>
+
+        <div class="projects__grid">
+          <!-- Odisea -->
+          <a class="project-link" href="project.html?id=odyssey-more-or-less">
+          <div class="project">
+            <img class="project__img" src="images/covers/portadaOdisea.png" alt="The Odyssey More Or Less">
+            <h3>The Odyssey More Or Less</h3>
+            <p class="project__description">
+              A Unity game jam project based on the theme of The Odyssey, featuring WarioWare-style minigames.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Small team</li>
+            </ul>
+          </div>
+          </a>
+
+          <!-- GranotaGO -->
+          <a class="project-link" href="project.html?id=granota-go">
+          <div class="project">
+              <img class="project__img" src="images/covers/portadaGGo.png" alt="Granota Go">
+              <h3>Granota Go</h3>
+              <p class="project__description">
+                A Unity game jam project featuring a block-based programming game designed for children.
+              </p>
+              <ul class="project__stack">
+                <li class="project__stack-item">Unity</li>
+                <li class="project__stack-item">C#</li>
+                <li class="project__stack-item">Small team</li>
+              </ul>
+          </div>
+          </a>
+        </div>
+
+        <!-- Personal -->
+        <h3 class="projects__category">Personal Projects</h3>
+
+        <div class="projects__grid">
+          <!-- ET -->
+          <a class="project-link" href="project.html?id=evolution-tale">
+          <div class="project">
+            <img class="project__img" src="images/covers/portadaET.png" alt="Evolution Tale">
+            <h3>Evolution Tale</h3>
+            <p class="project__description">
+              A fully completed Unity game developed by a two-person team as our first collaborative project.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Team of 2</li>
+            </ul>
+          </div>
+          </a>
+
+          <!-- Bullet heaven -->
+          <a class="project-link" href="project.html?id=bullet-heaven">
+          <div class="project">
+            <img class="project__img" src="images/covers/portadaBH.png" alt="Bullet Heaven">
+            <h3>Bullet Heaven</h3>
+            <p class="project__description">
+              Upcoming solo project for my Bachelor's Thesis: a platformer and bullet heaven hybrid built around boss rush gameplay.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Solo</li>
+            </ul>
+          </div>
+          </a>
+
+          <!-- Petroclo -->
+           <a class="project-link" href="project.html?id=oil-rig-game">
+          <div class="project">
+            <img class="project__img" src="images/covers/portadaOilrig.png" alt="Untitled Oil Rig Game">
+            <h3>Untitled Oil Rig Game</h3>
+            <p class="project__description">
+              An upcoming multiplayer horror game set on an abandoned offshore oil rig, developed in Unity.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Unity</li>
+              <li class="project__stack-item">C#</li>
+              <li class="project__stack-item">Small team</li>
+            </ul>
+          </div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© 2026 Isaac Ramírez</p>
+    </footer>
+
+    <div class="scroll-container">
+      <div class="scroll-top">
+        <a aria-label="Scroll up" href="#top">
+          <i aria-hidden="true" class="fas fa-arrow-up"></i>
+        </a>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
