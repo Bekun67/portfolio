@@ -325,14 +325,14 @@ main {
 }
 
 .badges .skills__icon {
-  width: 22px;
+  width: 32px;
 }
 
 .section-divider {
   border: 0;
   height: 0;
   margin: 0;
-  padding: 2.5em 0;
+  padding: 2.0em 0;
 }
 
 .section-divider::before {
