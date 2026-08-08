@@ -438,7 +438,7 @@ main {
 
 .project-detail__media {
   flex: 1 1 320px;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 16 / 9;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: var(--shadow);
@@ -454,7 +454,7 @@ main {
   display: none;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .project-detail__media-placeholder {
@@ -552,7 +552,8 @@ main {
 .project-detail__contrib-lead {
   color: var(--clr-primary);
   font-weight: 700;
-  font-size: 1.1em;
+  font-size: 1.3em;
+  display: block;
 }
 
 .project-detail__info-item {
