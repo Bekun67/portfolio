@@ -531,9 +531,10 @@ main {
 
 .project-detail__divider {
   border: 0;
-  border-top: 1px solid var(--clr-fg);
+  border-bottom: 1px solid var(--clr-fg);
   opacity: 0.15;
-  margin: 5em 0 3em;
+  padding-top: 5em;
+  margin: 0 0 3em;
 }
 
 .project-detail__info-grid {
