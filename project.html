@@ -66,14 +66,40 @@
 
         <img id="pd-hero" class="project-detail__hero" src="" alt="" />
 
+        <!-- Description -->
         <section class="project-detail__section">
           <h2 class="section__title">Description</h2>
-          <div class="project-detail__row">
-            <div class="project-detail__media" id="pd-desc-media">
-              <img class="project-detail__gif" id="pd-desc-gif" alt="" />
+          <div class="project-detail__text" id="pd-desc-text"></div>
+
+          <div class="project-detail__info-grid">
+            <div class="project-detail__info-item">
+              <span class="project-detail__info-label">Language</span>
+              <span class="project-detail__info-value" id="pd-language"></span>
             </div>
-            <div class="project-detail__text" id="pd-desc-text"></div>
+            <div class="project-detail__info-item">
+              <span class="project-detail__info-label">Engine</span>
+              <span class="project-detail__info-value" id="pd-engine"></span>
+            </div>
+            <div class="project-detail__info-item">
+              <span class="project-detail__info-label">Development time</span>
+              <span class="project-detail__info-value" id="pd-devtime"></span>
+            </div>
+            <div class="project-detail__info-item">
+              <span class="project-detail__info-label">Team size</span>
+              <span class="project-detail__info-value" id="pd-team"></span>
+            </div>
+            <div class="project-detail__info-item">
+              <span class="project-detail__info-label">Year</span>
+              <span class="project-detail__info-value" id="pd-year"></span>
+            </div>
           </div>
+        </section>
+
+        <!-- Role -->
+        <section class="project-detail__section" id="pd-role-section">
+          <h2 class="section__title">My role</h2>
+          <h3 class="project-detail__role-name" id="pd-role-name"></h3>
+          <div class="project-detail__text" id="pd-role-text"></div>
         </section>
 
         <!-- Trailer -->
@@ -100,56 +126,32 @@
           </a>
         </section>
 
-        <!-- Info -->
-        <section class="project-detail__section">
-          <h2 class="section__title">Info</h2>
-          <div class="project-detail__info-grid">
-            <div class="project-detail__info-item">
-              <span class="project-detail__info-label">Language</span>
-              <span class="project-detail__info-value" id="pd-language"></span>
-            </div>
-            <div class="project-detail__info-item">
-              <span class="project-detail__info-label">Engine</span>
-              <span class="project-detail__info-value" id="pd-engine"></span>
-            </div>
-            <div class="project-detail__info-item">
-              <span class="project-detail__info-label">Development time</span>
-              <span class="project-detail__info-value" id="pd-devtime"></span>
-            </div>
-            <div class="project-detail__info-item">
-              <span class="project-detail__info-label">Team size</span>
-              <span class="project-detail__info-value" id="pd-team"></span>
-            </div>
-            <div class="project-detail__info-item">
-              <span class="project-detail__info-label">Year</span>
-              <span class="project-detail__info-value" id="pd-year"></span>
-            </div>
-            <div class="project-detail__info-item" id="pd-role-info-item">
-              <span class="project-detail__info-label">Role</span>
-              <span class="project-detail__info-value" id="pd-info-role"></span>
-            </div>
-          </div>
-        </section>
-
-        <!-- Role -->
-        <section class="project-detail__section" id="pd-role-section">
-          <h2 class="section__title">My role</h2>
-          <div class="project-detail__row">
-            <div class="project-detail__media" id="pd-role-media">
-              <img class="project-detail__gif" id="pd-role-gif" alt="" />
-            </div>
-            <div class="project-detail__text" id="pd-role-text"></div>
-          </div>
-        </section>
-
         <!-- Contribution -->
         <section class="project-detail__section" id="pd-contrib-section">
           <h2 class="section__title">What I contributed</h2>
-          <div class="project-detail__row">
-            <div class="project-detail__media" id="pd-contrib-media">
-              <img class="project-detail__gif" id="pd-contrib-gif" alt="" />
+
+          <h3 class="project-detail__contrib-title" id="pd-contrib-title-0"></h3>
+          <div class="project-detail__row" id="pd-contrib-row-0">
+            <div class="project-detail__media" id="pd-contrib-media-0">
+              <img class="project-detail__gif" id="pd-contrib-img-0" alt="" />
             </div>
-            <div class="project-detail__text" id="pd-contrib-text"></div>
+            <div class="project-detail__text" id="pd-contrib-text-0"></div>
+          </div>
+
+          <h3 class="project-detail__contrib-title" id="pd-contrib-title-1"></h3>
+          <div class="project-detail__row" id="pd-contrib-row-1">
+            <div class="project-detail__media" id="pd-contrib-media-1">
+              <img class="project-detail__gif" id="pd-contrib-img-1" alt="" />
+            </div>
+            <div class="project-detail__text" id="pd-contrib-text-1"></div>
+          </div>
+
+          <h3 class="project-detail__contrib-title" id="pd-contrib-title-2"></h3>
+          <div class="project-detail__row" id="pd-contrib-row-2">
+            <div class="project-detail__media" id="pd-contrib-media-2">
+              <img class="project-detail__gif" id="pd-contrib-img-2" alt="" />
+            </div>
+            <div class="project-detail__text" id="pd-contrib-text-2"></div>
           </div>
         </section>
       </article>

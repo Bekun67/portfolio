@@ -34,9 +34,9 @@
   }
 
   // Gif
-  function fillGif(mediaContainerId, gifId, src) {
+  function fillMedia(mediaContainerId, imgId, src) {
     const mediaContainer = document.getElementById(mediaContainerId);
-    const img = document.getElementById(gifId);
+    const img = document.getElementById(imgId);
     if (src) {
       img.src = src;
       mediaContainer.classList.add("has-media");
@@ -47,7 +47,24 @@
 
   // Description
   fillParagraphs("pd-desc-text", data.description);
-  fillGif("pd-desc-media", "pd-desc-gif", data.descriptionGif);
+
+  const info = data.info || {};
+  document.getElementById("pd-language").textContent = info.language || "—";
+  document.getElementById("pd-engine").textContent = info.engine || "—";
+  document.getElementById("pd-devtime").textContent = info.devTime || "—";
+  document.getElementById("pd-team").textContent = info.team || "—";
+  document.getElementById("pd-year").textContent = info.year || "—";
+
+  // Role
+  const roleSection = document.getElementById("pd-role-section");
+  const role = data.role || {};
+  if ((role.paragraphs && role.paragraphs.length) || role.title) {
+    document.getElementById("pd-role-name").textContent = role.title || "";
+    fillParagraphs("pd-role-text", role.paragraphs);
+    roleSection.hidden = false;
+  } else {
+    roleSection.hidden = true;
+  }
 
   // Trailer
   const videoSection = document.getElementById("pd-video-section");
@@ -69,41 +86,26 @@
   if (data.githubLink) githubLink.href = data.githubLink;
   linksSection.hidden = !data.downloadLink && !data.githubLink;
 
-  // Info
-  const info = data.info || {};
-  document.getElementById("pd-language").textContent = info.language || "—";
-  document.getElementById("pd-engine").textContent = info.engine || "—";
-  document.getElementById("pd-devtime").textContent = info.devTime || "—";
-  document.getElementById("pd-team").textContent = info.team || "—";
-  document.getElementById("pd-year").textContent = info.year || "—";
-
-  const roleInfoItem = document.getElementById("pd-role-info-item");
-  if (info.role) {
-    document.getElementById("pd-info-role").textContent = info.role;
-    roleInfoItem.hidden = false;
-  } else {
-    roleInfoItem.hidden = true;
-  }
-
-  // Role section
-  const roleSection = document.getElementById("pd-role-section");
-  const role = data.role || {};
-  if (role.paragraphs && role.paragraphs.length) {
-    fillParagraphs("pd-role-text", role.paragraphs);
-    fillGif("pd-role-media", "pd-role-gif", role.gif);
-    roleSection.hidden = false;
-  } else {
-    roleSection.hidden = true;
-  }
-
-  // Contributions section
+  // Contribution
   const contribSection = document.getElementById("pd-contrib-section");
-  const contribution = data.contribution || {};
-  if (contribution.paragraphs && contribution.paragraphs.length) {
-    fillParagraphs("pd-contrib-text", contribution.paragraphs);
-    fillGif("pd-contrib-media", "pd-contrib-gif", contribution.gif);
-    contribSection.hidden = false;
-  } else {
-    contribSection.hidden = true;
+  const contributions = data.contributions || [];
+
+  for (let i = 0; i < 3; i++) {
+    const item = contributions[i];
+    const titleEl = document.getElementById("pd-contrib-title-" + i);
+    const rowEl = document.getElementById("pd-contrib-row-" + i);
+
+    if (item) {
+      titleEl.textContent = item.title || "";
+      fillParagraphs("pd-contrib-text-" + i, item.paragraphs);
+      fillMedia("pd-contrib-media-" + i, "pd-contrib-img-" + i, item.image);
+      titleEl.hidden = false;
+      rowEl.hidden = false;
+    } else {
+      titleEl.hidden = true;
+      rowEl.hidden = true;
+    }
   }
+
+  contribSection.hidden = contributions.length === 0;
 })();

@@ -522,6 +522,18 @@ main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   gap: 1.2em;
+  margin-top: 2em;
+}
+
+.project-detail__role-name {
+  color: var(--clr-primary);
+  margin: 0.3em 0 1em;
+}
+
+.project-detail__contrib-title {
+  color: var(--clr-primary);
+  text-align: center;
+  margin: 2.5em 0 1.2em;
 }
 
 .project-detail__info-item {
