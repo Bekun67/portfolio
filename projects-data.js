@@ -1,4 +1,4 @@
-const PROJECTS = {
+window.PROJECTS = {
   "son-of-ithaca": {
     title: "Son Of Ithaca",
     heroImage: "images/covers/portadaSOI.png",
