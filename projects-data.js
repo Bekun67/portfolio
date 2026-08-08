@@ -215,21 +215,21 @@ window.PROJECTS = {
         paragraphs: [
           "Designed and programmed six unique minigames, implementing their gameplay mechanics, objectives, and interactions while ensuring they fit the fast-paced WarioWare-style experience."
         ],
-        image: ""
+        image: "images/gifs/omol1.gif"
       },
       {
         title: "Endless Mode & Difficulty Scaling",
         paragraphs: [
           "Developed the endless mode system, preventing repeated minigames and organizing them into randomized rounds. Implemented adaptive difficulty by progressively increasing each minigame's challenge through gameplay parameters, timers, and pacing as the player advanced."
         ],
-        image: ""
+        image: "images/gifs/omol2.gif"
       },
       {
         title: "Visual Polish & Integration",
         paragraphs: [
           "Integrated the majority of the game's assets and enhanced the overall game feel by implementing visual effects such as camera shake, particle systems, animations, and responsive feedback, making every minigame feel dynamic and impactful."
         ],
-        image: ""
+        image: "images/gifs/omol3.gif"
       }
     ]
   },
@@ -262,21 +262,21 @@ window.PROJECTS = {
         paragraphs: [
           "Designed and implemented the level creation system using Unity's editor, allowing puzzle layouts to be built from color-coded maps. This workflow enabled fast level iteration and simplified the creation of new stages."
         ],
-        image: ""
+        image: "images/gifs/gg1.gif"
       },
       {
         title: "Gameplay Programming",
         paragraphs: [
           "Implemented the frog's interactions with the environment, including collision handling and the behavior of all interactive tiles. This included mechanics such as disappearing platforms, teleporters, moving tiles, and other puzzle elements that define the gameplay."
         ],
-        image: ""
+        image: "images/gifs/gg2.gif"
       },
       {
         title: "Level Design",
         paragraphs: [
           "Designed, implemented, and balanced every puzzle in the game, creating each level and defining its intended optimal solution to ensure a smooth learning curve and engaging progression."
         ],
-        image: ""
+        image: "images/gifs/gg3.gif"
       }
     ]
   },
@@ -309,21 +309,21 @@ window.PROJECTS = {
         paragraphs: [
           "Designed and implemented the entire inventory interface, crafting menus, and shop systems. Focused on creating an intuitive workflow for managing resources, crafting new items, and progressing through the different historical eras."
         ],
-        image: ""
+        image: "images/gifs/et1.gif"
       },
       {
         title: "World Building & Art Integration",
         paragraphs: [
           "Created the game's maps, visual assets, user interface, and environmental effects, integrating them into Unity to build the eight explorable worlds and provide a cohesive visual experience."
         ],
-        image: ""
+        image: "images/gifs/et2.gif"
       },
       {
         title: "Core Gameplay Development",
         paragraphs: [
           "Worked alongside my teammate to implement the game's fundamental mechanics, including resource gathering, mining, tree chopping, crafting, and overall progression systems that drive the player's journey through the different eras."
         ],
-        image: ""
+        image: "images/gifs/et3.gif"
       }
     ]
   },
