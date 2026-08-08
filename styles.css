@@ -312,13 +312,26 @@ main {
 
 .badges {
   margin-top: 3em;
+  margin-bottom: 1em;
+}
+
+.badges .skills__list-item {
+  padding: 1em 0.8em;
+  gap: 0.6em;
+  font-size: 0.85rem;
+  flex: 1 1 110px;
+  max-width: 140px;
+}
+
+.badges .skills__icon {
+  width: 32px;
 }
 
 .section-divider {
   border: 0;
   border-bottom: 1px solid var(--clr-fg);
   opacity: 0.15;
-  margin-top: 3em;
+  margin: 3em 0;
 }
 
 .about__name {
@@ -726,3 +739,4 @@ main {
   .scroll-container {
     display: none;
   }
+}
