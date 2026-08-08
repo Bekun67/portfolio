@@ -554,6 +554,7 @@ main {
   font-weight: 700;
   font-size: 1.3em;
   display: block;
+  margin-bottom: 0.5em;
 }
 
 .project-detail__info-item {
