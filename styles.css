@@ -455,6 +455,7 @@ main {
   font-weight: 600;
   flex: 1 1 130px;
   max-width: 160px;
+  border-radius: 8px;
 }
 
 .skills__icon {
