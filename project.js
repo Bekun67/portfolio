@@ -3,6 +3,12 @@
   const id = params.get("id");
   const data = window.PROJECTS ? window.PROJECTS[id] : null;
 
+  const from = params.get("from");
+  const backHref = from === "projects" ? "projects.html" : "index.html#projects";
+
+  const nfBack = document.getElementById("nf-back");
+  if (nfBack) nfBack.href = backHref;
+
   const notFound = document.getElementById("not-found");
   const detail = document.getElementById("project-detail");
 
@@ -14,6 +20,9 @@
 
   notFound.hidden = true;
   detail.hidden = false;
+
+  const backLink = document.querySelector(".project-detail__back");
+  if (backLink) backLink.href = backHref;
 
   document.title = data.title + " — Isaac Ramírez";
 

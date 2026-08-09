@@ -7,7 +7,7 @@ const THEME_KEY = 'portfolio-theme'
 const ICON_KEY = 'portfolio-btn-theme'
 
 const applyTheme = (theme) => {
-	const iconClass = theme === 'dark' ? 'fa-moon' : 'fa-sun'
+	const iconClass = theme === 'dark' ? 'fa-sun' : 'fa-moon'
 
 	body.classList.remove('dark', 'light')
 	body.classList.add(theme)
