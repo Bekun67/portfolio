@@ -27,21 +27,21 @@ window.PROJECTS = {
         paragraphs: [
           "Designed and implemented the complete player controller for Telemachus using the engine's Lua scripting system. This included movement, combat, keyboard and controller input, state management, animation integration, orbiting mechanics, cutscene interactions, and other core gameplay systems."
         ],
-        image: ""
+        image: "images/gifs/soi1.gif"
       },
       {
         title: "Core Gameplay Mechanics",
         paragraphs: [
           "Developed and integrated the game's three main mask mechanics, each introducing unique abilities that expand combat, exploration, and puzzle-solving while supporting the overall progression of the adventure."
         ],
-        image: ""
+        image: "images/gifs/soi2.gif"
       },
       {
         title: "Game Feel & Visual Feedback",
         paragraphs: [
           "Enhanced the overall player experience by implementing visual effects and gameplay polish, including particles, lighting effects, camera shake, combat feedback, textures, and other elements to improve responsiveness and game feel."
         ],
-        image: ""
+        image: "images/gifs/soi3.gif"
       }
     ]
   },
