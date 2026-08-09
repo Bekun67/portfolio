@@ -200,7 +200,7 @@ window.PROJECTS = {
       language: "C#",
       engine: "Unity",
       devTime: "1 week",
-      team: "6 members",
+      team: "5 members",
       year: "2025"
     },
     role: {
