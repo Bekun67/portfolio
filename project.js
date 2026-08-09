@@ -5,9 +5,13 @@
 
   const from = params.get("from");
   const backHref = from === "projects" ? "projects.html" : "index.html#projects";
+  const backLabel = from === "projects" ? "Back to projects" : "Back to home";
 
   const nfBack = document.getElementById("nf-back");
-  if (nfBack) nfBack.href = backHref;
+  if (nfBack) {
+    nfBack.href = backHref;
+    nfBack.textContent = backLabel;
+  }
 
   const notFound = document.getElementById("not-found");
   const detail = document.getElementById("project-detail");
@@ -22,7 +26,11 @@
   detail.hidden = false;
 
   const backLink = document.querySelector(".project-detail__back");
-  if (backLink) backLink.href = backHref;
+  if (backLink) {
+    backLink.href = backHref;
+    backLink.innerHTML =
+      '<i aria-hidden="true" class="fas fa-arrow-left"></i> ' + backLabel;
+  }
 
   document.title = data.title + " — Isaac Ramírez";
 
