@@ -101,6 +101,7 @@
   } else {
     roleSection.hidden = true;
   }
+  document.getElementById("pd-divider-1").hidden = roleSection.hidden;
 
   // Trailer
   const videoSection = document.getElementById("pd-video-section");
@@ -140,4 +141,7 @@
   }
 
   contribSection.hidden = contributions.length === 0;
+
+  document.getElementById("pd-divider-2").hidden =
+    videoSection.hidden && contribSection.hidden;
 })();

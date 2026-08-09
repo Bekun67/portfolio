@@ -168,21 +168,21 @@ window.PROJECTS = {
         paragraphs: [
           "Implemented all core gameplay mechanics, including player movement, box pushing, collision handling, win and lose conditions, and level progression while accurately reproducing the behavior of the original game."
         ],
-        image: ""
+        image: "images/gifs/ss1.gif"
       },
       {
         title: "UI & Game Flow",
         paragraphs: [
           "Developed the complete user interface and navigation flow, recreating the original menus, HUD, controls, step and level counters, screen transitions, and the frame-by-frame introductory animation."
         ],
-        image: ""
+        image: "images/gifs/ss2.gif"
       },
       {
         title: "Audio & Polish",
         paragraphs: [
           "Integrated all music and sound effects from the original game, ensuring they were synchronized with gameplay and menus to faithfully recreate the audiovisual experience. The final result delivers a fully playable recreation of the first eight levels from start to finish."
         ],
-        image: ""
+        image: "images/gifs/ss3.gif"
       }
     ]
   },
