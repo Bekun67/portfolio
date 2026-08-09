@@ -74,21 +74,21 @@ window.PROJECTS = {
         paragraphs: [
           "Co-designed and implemented the player's state machine, programming the majority of its states and transitions. Developed core gameplay features including movement, combat interactions, and the game's signature climbing mechanics, where players throw climbing picks that attach to walls and create temporary platforms for traversal."
         ],
-        image: ""
+        image: "images/gifs/ku1.gif"
       },
       {
         title: "Progression & Economy",
         paragraphs: [
           "Designed and implemented the game's progression system. Programmed enemy orb drops, the in-game currency system, shops, and most of the available upgrades, balancing both their functionality and player progression."
         ],
-        image: ""
+        image: "images/gifs/ku2.gif"
       },
       {
         title: "Gameplay Design",
         paragraphs: [
           "Contributed to the design of several core gameplay mechanics, with a particular focus on the upgrade system and player progression. Worked closely with the Lead Programmer to ensure that gameplay systems remained scalable, responsive, and aligned with the overall game design."
         ],
-        image: ""
+        image: "images/gifs/ku3.gif"
       }
     ]
   },
@@ -121,21 +121,21 @@ window.PROJECTS = {
         paragraphs: [
           "Designed and implemented the level management architecture, including map loading, dynamic collision generation, level transitions, checkpoint handling, save/load systems, and fast travel between campfires. Expanded the game with additional levels and integrated new tiles and backgrounds into the existing world."
         ],
-        image: ""
+        image: "images/gifs/jk1.gif"
       },
       {
         title: "Gameplay Programming",
         paragraphs: [
           "Implemented multiple gameplay systems, including the player death and respawn logic, entity and item systems, enemy interactions, collectibles, and the final boss with its own behavior and attack patterns. Also improved the existing collision and hitbox systems while fixing gameplay issues throughout development."
         ],
-        image: ""
+        image: "images/gifs/jk2.gif"
       },
       {
         title: "Content & Polish",
         paragraphs: [
           "Created and integrated new gameplay content, balancing enemy placement, checkpoints, upgrades, and overall difficulty. Collaborated on debugging, optimization, asset integration, project organization, and final polishing to deliver a complete and polished reinterpretation of the original game."
         ],
-        image: ""
+        image: "images/gifs/jk3.gif"
       }
     ]
   },
