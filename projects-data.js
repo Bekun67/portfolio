@@ -238,7 +238,7 @@ window.PROJECTS = {
     title: "Granota Go",
     heroImage: "images/covers/portadaGGo.png",
     description: [
-      "Granota Go is a browser-based educational game developed in Unity to introduce children aged 6 to 8 to computational thinking through interactive puzzles. Players solve challenges by programming a frog's movements using a drag-and-drop block-based coding system. Created for the 3rd Premis Ludi Game Jam, organized by 3Cat and GameBCN, the game features a fully responsive interface designed to provide a seamless experience across desktop, mobile, and tablet devices."
+      "Granota Go is a browser-based educational game developed in Unity to introduce children aged 6 to 8 to computational thinking through interactive puzzles. Players solve challenges by programming a frog's movements using a drag-and-drop block-based coding system. Created for the 3rd Premis Ludi Game Jam, organized by 3Cat and GameBCN, the game was designed primarily for mobile devices."
     ],
     youtubeId: "qXzJzuXgems",
     downloadLink: "https://oalonsoo.itch.io/granotago",
@@ -285,7 +285,7 @@ window.PROJECTS = {
     title: "Evolution Tale",
     heroImage: "images/covers/portadaET.png",
     description: [
-      "Evolution Tale is a crafting and exploration game developed in Unity as one of my first game development projects. Created during high school by a two-person team, the project was built while learning Unity and C# from scratch. Players gather resources across eight historical eras, craft hundreds of unique items, and progressively unlock new technologies while advancing through the evolution of civilization."
+      "Evolution Tale is a crafting and exploration game developed in Unity as one of my first game development projects. Created during high school by a two-person team, the project was built while learning Unity and C# from scratch. Players gather resources across eight historical eras, craft hundreds of unique items, and progressively unlock new technologies. Created as my high school final research project, it received the highest possible grade and was selected to represent my school at the 8th Tr@ms High School Research Projects Exhibition."
     ],
     youtubeId: "7VWWzC0UzgE",
     downloadLink: "https://store.steampowered.com/app/2079680/Evolution_Tale/",
@@ -298,7 +298,7 @@ window.PROJECTS = {
       year: "2021"
     },
     role: {
-      title: "Gameplay Programmer & UI Designer",
+      title: "Gameplay Programmer, UI Designer & 2D Artist",
       paragraphs: [
         "Implemented the complete inventory, crafting menus, shop systems, world building, and visual assets. Collaborated on the core gameplay systems, including resource gathering, crafting mechanics, and player interactions."
       ]
