@@ -43,6 +43,14 @@ window.PROJECTS = {
         ],
         image: "images/gifs/soi3.gif"
       }
+    ],
+    awards: [
+      {
+        title: "Final Presentation & Academic Recognition",
+        subtitle: "CITM – Centre de la Imatge i la Tecnologia Multimèdia",
+        description: "Son of Ithaca was presented to professionals from King, Alkimia Interactive, and Drop of Pixel, receiving highly positive feedback. The project also received the highest academic grade (10/10).",
+        image: "images/awards/soi-recognition.png"
+      }
     ]
   },
 
@@ -324,6 +332,14 @@ window.PROJECTS = {
           "Worked alongside my teammate to implement the game's fundamental mechanics, including resource gathering, mining, tree chopping, crafting, and overall progression systems that drive the player's journey through the different eras."
         ],
         image: "images/gifs/et3.gif"
+      }
+    ],
+    awards: [
+      {
+        title: "8th Tr@ms High School Research Projects Exhibition",
+        subtitle: "School Representative",
+        description: "Evolution Tale was selected to represent my high school at the 8th Tr@ms High School Research Projects Exhibition after receiving the highest possible grade.",
+        image: "images/awards/et-award.png"
       }
     ]
   },

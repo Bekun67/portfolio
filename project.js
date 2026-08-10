@@ -144,4 +144,65 @@
 
   document.getElementById("pd-divider-2").hidden =
     videoSection.hidden && contribSection.hidden;
+
+  // Awards
+  const awardsSection = document.getElementById("pd-awards-section");
+  const awardsList = document.getElementById("pd-awards-list");
+  const awards = data.awards || [];
+
+  awardsList.innerHTML = "";
+
+  awards.forEach((award, i) => {
+    const card = document.createElement("div");
+    card.className = "award-card";
+
+    const media = document.createElement("div");
+    media.className = "award-card__media";
+
+    const img = document.createElement("img");
+    img.className = "award-card__img";
+    img.alt = award.title || "";
+
+    if (award.image) {
+      img.src = award.image;
+      media.classList.add("has-media");
+    } else {
+      const placeholder = document.createElement("span");
+      placeholder.className = "award-card__media-placeholder";
+      placeholder.textContent = "Photo coming soon";
+      media.appendChild(placeholder);
+    }
+    media.appendChild(img);
+
+    const text = document.createElement("div");
+    text.className = "award-card__text";
+
+    if (award.title) {
+      const titleEl = document.createElement("h3");
+      titleEl.className = "award-card__title";
+      titleEl.textContent = award.title;
+      text.appendChild(titleEl);
+    }
+
+    if (award.subtitle) {
+      const subtitleEl = document.createElement("h4");
+      subtitleEl.className = "award-card__subtitle";
+      subtitleEl.textContent = award.subtitle;
+      text.appendChild(subtitleEl);
+    }
+
+    if (award.description) {
+      const descEl = document.createElement("p");
+      descEl.className = "award-card__desc";
+      descEl.textContent = award.description;
+      text.appendChild(descEl);
+    }
+
+    card.appendChild(media);
+    card.appendChild(text);
+    awardsList.appendChild(card);
+  });
+
+  awardsSection.hidden = awards.length === 0;
+  document.getElementById("pd-divider-3").hidden = awardsSection.hidden;
 })();
