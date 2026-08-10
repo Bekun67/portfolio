@@ -49,7 +49,7 @@ window.PROJECTS = {
         title: "Final Presentation & Academic Recognition",
         subtitle: "CITM – Centre de la Imatge i la Tecnologia Multimèdia",
         description: "Son of Ithaca was presented to professionals from King, Alkimia Interactive, and Drop of Pixel, receiving highly positive feedback. The project also received the highest academic grade (10/10).",
-        image: "images/awards/soi-recognition.png"
+        image: "images/awards/soi-recognition.jpg"
       }
     ]
   },
@@ -339,7 +339,7 @@ window.PROJECTS = {
         title: "8th Tr@ms High School Research Projects Exhibition",
         subtitle: "School Representative",
         description: "Evolution Tale was selected to represent my high school at the 8th Tr@ms High School Research Projects Exhibition after receiving the highest possible grade.",
-        image: "images/awards/et-award.png"
+        image: "images/awards/et-award.jpg"
       }
     ]
   },
